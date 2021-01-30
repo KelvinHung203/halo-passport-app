@@ -1,24 +1,20 @@
-import * as Linking from 'expo-linking';
+import * as Linking from "expo-linking";
 
 export default {
-  prefixes: [Linking.makeUrl('/')],
+  prefixes: [Linking.makeUrl("/")],
   config: {
     screens: {
-      Root: {
+      Welcome: {
         screens: {
-          Welcome: {
-            screens: {
-              WelcomeScreen: 'welcome',
-            },
-          },
-          Blockchain: {
-            screens: {
-              BlockchainScreen: 'blockchain',
-            },
-          },
+          WelcomeScreen: "welcome",
         },
       },
-      NotFound: '*',
+      Blockchain: {
+        screens: {
+          BlockchainScreen: "blockchain",
+        },
+      },
+      NotFound: "*",
     },
   },
 };

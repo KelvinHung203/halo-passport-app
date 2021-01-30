@@ -45,8 +45,7 @@ export default function BlockchainScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // alignItems: 'center',
-    // justifyContent: 'center',
+    paddingTop: 30
   },
   title: {
     fontSize: 20,

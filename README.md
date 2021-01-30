@@ -1,7 +1,7 @@
 # Highlights
 
 * Provide a platform for **recieving the notification of test result**
-* Utlizing the block chain and IPMS to **prevent falsify of vaccination record and test result** 
+* Utlizing the block chain and IPMS to **prevent falsify of vaccination record and test result** \\
 
 
 # Inspiration

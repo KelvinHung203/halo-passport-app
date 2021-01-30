@@ -14,6 +14,11 @@ export default {
           BlockchainScreen: "blockchain",
         },
       },
+      Passport: {
+        screens: {
+          PassportQRCodeScreen: "passport",
+        },
+      },
       NotFound: "*",
     },
   },

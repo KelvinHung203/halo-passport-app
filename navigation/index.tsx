@@ -6,6 +6,7 @@ import { ColorSchemeName } from 'react-native';
 import NotFoundScreen from '../screens/NotFoundScreen';
 import WelcomeScreen from '../screens/WelcomeScreen';
 import BlockchainScreen from "../screens/BlockchainScreen";
+import PassportQRCodeScreen from '../screens/PassportQRCodeSCreen';
 import { RootStackParamList } from '../types';
 import LinkingConfiguration from './LinkingConfiguration';
 
@@ -28,8 +29,9 @@ const Stack = createStackNavigator<RootStackParamList>();
 function RootNavigator() {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
-      <Stack.Screen name="Welcome" component={WelcomeScreen}/>
+      <Stack.Screen name="Welcome" component={WelcomeScreen} />
       <Stack.Screen name="Blockchain" component={BlockchainScreen} />
+      <Stack.Screen name="Passport" component={PassportQRCodeScreen} />
       <Stack.Screen name="NotFound" component={NotFoundScreen} options={{ title: 'Oops!' }} />
     </Stack.Navigator>
   );

@@ -13,7 +13,7 @@ export default function WelcomeScreen({ navigation }: any) {
         <Text style={styles.title}>Welcome,</Text>
         <Text style={styles.name}>Chan Tai Man</Text>
         <Button title="Access your Blockchain" onPress={() => navigation.navigate('Blockchain', { screen: 'BlockchainScreen' })} buttonStyle={styles.button} type="outline" />
-        <Button title="Halo Passport" onPress={() => { }} buttonStyle={styles.button} type="outline" disabled />
+        <Button title="Halo Passport" onPress={() => navigation.navigate('Passport', { screen: 'Passport' })} buttonStyle={styles.button} type="outline" disabled />
       </ImageBackground>
     </View >
   );

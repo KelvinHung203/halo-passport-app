@@ -7,9 +7,9 @@ import Timeline from 'react-native-timeline-flatlist'
 const backgroundImage = '../assets/images/blockchain_page.png'
 const date = '2021/01/31'
 const data = [
-  { time: '09:00', title: 'Lab Status Update', description: 'The Lab has started processing your specimen' },
-  { time: '10:45', title: 'Lab Status Update', description: 'The Lab has started PCR of your specimen' },
-  { time: '12:00', title: `COVID-19 Test Result: ${date}`, description: 'Negative' },
+  { time: '30 Jan 09:00', title: 'Lab Status Update', description: 'The Lab has started processing your specimen' },
+  { time: '30 Jan 10:45', title: 'Lab Status Update', description: 'The Lab has started PCR of your specimen' },
+  { time: '30 Jan 12:00', title: `COVID-19 Test Result: ${date}`, description: 'Negative' },
 ]
 
 const isTestPositive = () => {

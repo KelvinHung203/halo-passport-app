@@ -36,7 +36,7 @@ We, togather made a functional and good looking apps at a limited time, which is
 
 
 # What is next for Halo?
-
+(...)
 
 
 
